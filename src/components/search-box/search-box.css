@@ -1,0 +1,26 @@
+.search-container {
+  text-align: center;
+  padding: 10px;
+}
+
+.title {
+  color: #ff7bbf !important;
+}
+
+.search-container > input {
+  line-height: 50px;
+  min-width: 300px;
+  background-color: #ff7bbf;
+  border: none;
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 15px;
+  color: 50409a;
+  padding: 10px;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
